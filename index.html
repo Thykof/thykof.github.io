@@ -1,23 +1,29 @@
 <!doctype html>
-<html>
+<html lang="fr">
 <head>
 	<title>Thykof - Nathan Seva</title>
 	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="reset.css" />
 	<link rel="stylesheet" href="style.css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 <header>
 	<h1 class="title">Nathan Seva</h1>
-	<h2 class="subtitle">
-		<a href="https://github.com/Thykof">Alias <strong>Thykof</strong></a>
+	<h2>
+		<a class="subtitle" href="https://github.com/Thykof">Alias <strong>Thykof</strong></a>
 	</h2>
-	<p>Student-engineer  at <strong>Polytech Orléans</strong>
+	<p>Student-engineer at <strong>Polytech Nantes</strong>
 	<p>Developer profile</p>
-	<br><br>
-	<p>I study engineer sciences at Polytech Orléans. I love coding and I started with Python3. I like free software which respect privacy.</p>
+	<br>
+	<br>
 </header>
+
+<section id="bio">
+	<p class="bio">I study engineer sciences at Polytech Orléans. I love coding and I started with Python3. I like free software which respect privacy.</p>
+</section>
 
 <section id="skills">
 	<h2>Skills</h2>
@@ -26,11 +32,11 @@
 		<h3>Python3 <span class="small">(75 %)</span></h3>
 		<p>Since 2013</p>
 		<ul>
-			<li>Gtk3</li>
-			<li>multithreading</li>
-			<li>Unit testing (pytest)</li>
-			<li>Django</li>
-			<li>Documentation (sphinx)</li>
+			<li>Gtk3 <a href="https://github.com/Thykof/SafeMyWork"><i class="fa fa-angle-double-right"></i></a></li>
+			<li>multithreading <a href="https://github.com/Thykof/SafeMyWork"><i class="fa fa-angle-double-right"></i></a></li>
+			<li>Unit testing (pytest) <a href="https://travis-ci.org/Swiftea/Crawler"><i class="fa fa-angle-double-right"></i></a></li>
+			<li>Django <a href="https://safemywork.pythonanywhere.com"><i class="fa fa-angle-double-right"></i></a></li>
+			<li>Documentation (sphinx) <a href="https://crawler.readthedocs.io/en/master"><i class="fa fa-angle-double-right"></i></a></li>
 			<li>REST API connection</li>
 		</ul>
 	</div>
@@ -50,42 +56,56 @@
 		<h3>Learnt at Polytech<span class="small"> (5 %)</span></h3>
 		<ul>
 			<li>C++</li>
-			<li>C# and WinForm</li>
+			<li>C# and WinForm <a href="https://github.com/Thykof/Projet-EDO-PEIP2S1"><i class="fa fa-angle-double-right"></i></a></li>
 			<li>PHP and SQL</li>
 			<li>Arduino</li>
 			<li>Matlab</li>
 			<li>R</li>
 		</ul>
 	</div>
-
 </section>
 
-<section>
+
+<section id="projects">
 	<h2>Projects</h2>
 
 	<div>
 		<a href="https://github.com/Thykof/SafeMyWork-Web"><h3>SafeMyWork-Web</h3></a>
 		<p>Website for SafeMyWork. Store your SafeMyWork settings file on the cloud.</p>
-		<p>Tech: Django, file upload
+			<ul class="project-tag-wrapper">
+				<li class="project-tag">Python3</li>
+				<li class="project-tag">Django</li>
+				<li class="project-tag">file upload</li>
+			</ul>
 	</div>
 
 	<div>
 		<a href="https://github.com/Thykof/SafeMyWork"><h3>SafeMyWork</h3></a>
 		<p>Automatic save and synchronise your documents.</p>
-		<p>Tech: Python3, Gtk3, multithreading</p>
+		<ul class="project-tag-wrapper">
+			<li class="project-tag">Python3</li>
+			<li class="project-tag">Gtk3</li>
+			<li class="project-tag">multithreading</li>
+		</ul>
 	</div>
 
 	<div>
 		<a href="https://github.com/Thykof/Rent-MontDore"><h3>Rent-MontDore</h3></a>
 		<p>Website for apartment booking.</p>
-		<p>Tech: Django
+		<ul class="project-tag-wrapper">
+			<li class="project-tag">Django</li>
+		</ul>
 	</div>
 
 	<div>
 		<a href="https://github.com/ImEditor/ImEditor"><h3>ImEditor</h3></a>
 		<p>Simple picture editor, easy to use</p>
 		<p>In collaboration with <a href="https://hugo-posnic.fr">Hugo Posnic</a></p>
-		<p>Tech: Python3, Gtk3, Pillow</p>
+		<ul class="project-tag-wrapper">
+			<li class="project-tag">Python3</li>
+			<li class="project-tag">Gtk3</li>
+			<li class="project-tag">Pillow</li>
+		</ul>
 	</div>
 
 	<div>
@@ -93,21 +113,23 @@
 		<p>Crawler bot for <a href="http://swiftea.yo.fr/">Swiftea</a> search engine</p>
 		<p><strong>Database</strong>: connect to remote database with <em>PyMySQL</em></p>
 		<p><strong>FTP</strong>: connect to remote server with <em>paramiko</em></p>
-		<p><strong>Unit</strong> testing with <em>pytest</em></p>
+		<p><strong>Unit testing</strong> with <em>pytest</em></p>
 		<p><strong>Documentation</strong> with <em>Sphinx</em>, availble on <a href="http://crawler.readthedocs.io/en/develop/index.html">ReadTheDocs</a></p>
 		<p>In collaboration with <a href="https://hugo-posnic.fr">Hugo Posnic</a></p>
-		<p>Tech: Python3</p>
+		<ul class="project-tag-wrapper">
+			<li class="project-tag">Python3</li>
+		</ul>
 	</div>
 
 </section>
 
-<section>
+<section id="tools">
 	<h2>Tools</h2>
 	<div>
 		<ul>
 			<li>System: Ubuntu</li>
 			<li>Text editor: Atom, Sublime Text</li>
-			<li>Git and github</li>
+			<li>Version control system: Git and github</li>
 			<li>Web browser: Firefox</li>
 			<li>Common ressources: APIs references, ReadTheDocs, w3schools.com</li>
 			<li>Favorite search engine: <a href="https://www.qwant.com">Qwant</a></li>
@@ -115,7 +137,7 @@
 	</div>
 </section>
 
-<section>
+<section id="contact">
 	<h2>Contact</h2>
 	<p><a href="mailto:nathan.seva@outlook.fr">nathan.seva@outlook.fr</a></p>
 	<div>
