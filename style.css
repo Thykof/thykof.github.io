@@ -41,11 +41,16 @@ h3 {
 	padding-bottom: 10px;
 	text-align: center;
 	color: #151515;
-	font-size: 20px;
+	font-size: 1.55em;
 }
 
-li {
-	padding: 3px;
+h4 {
+	font-size: 1.1em;
+	text-decoration: underline;
+}
+
+ul {
+	margin-left: 5px;
 }
 
 li p {
@@ -125,6 +130,31 @@ em {
 	background-color: #9A8B45;
 }
 
+.project-tag-wrapper {
+	margin: 10px 0;
+	text-align: center;
+}
+
+#projects .project-tag-wrapper li {
+	display: inline-block;
+	margin: 0 1%;
+	vertical-align: middle;
+}
+
+.project-tag {
+	border: 1px solid #ce3e39;
+	border-radius: 15%;
+	padding: 3px;
+}
+
+.deployment-tag {
+	font-size: 24px;
+}
+
+#projects .project-tag-wrapper img {
+	vertical-align: middle;
+}
+
 #tools {
 	background-color: #377C37;
 }
@@ -142,14 +172,6 @@ footer a {
 	color: black;
 }
 
-.project-tag-wrapper {
-	margin: 10px;
-	text-align: center;
-}
-
-.project-tag {
-	display: inline-block;
-	border: 1px solid #ce3e39;
-	border-radius: 15%;
-	margin: 0 1%;
+footer img {
+	vertical-align: middle;
 }
