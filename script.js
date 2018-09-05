@@ -13,6 +13,7 @@ function tagDjango() {
       worker = new Worker("webWorker.js");
     }
     worker.postMessage('django-tag');
+    document.getElementById('projects').scrollIntoView();
     worker.onmessage = resetHighlight;
   }
 }
