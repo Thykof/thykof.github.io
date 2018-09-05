@@ -1,11 +1,11 @@
 var worker;
 
-function tagDjango() {
-  // Set highlight-tag class to all tag with tagName
-  djangoTags = document.getElementsByClassName("django-tag");
+function Highlight(tagname) {
+  // Set highlight-tag class to all tags with tagName
+  Tags = document.getElementsByClassName(tagname);
   var j;
-  for (j = 0; j < djangoTags.length; j++) {
-    djangoTags[j].classList.add('highlight-tag');
+  for (j = 0; j < Tags.length; j++) {
+    Tags[j].classList.add('highlight-tag');
   }
 
   if(typeof(Worker) !== "undefined") {
@@ -19,7 +19,7 @@ function tagDjango() {
 }
 
 function resetHighlight() {
-  // reset all ags
+  // reset all tags
   tags = document.getElementsByClassName('project-tag');
   console.log(tags);
   var i;

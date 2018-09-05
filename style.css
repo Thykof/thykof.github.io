@@ -128,6 +128,7 @@ em {
 
 .link-tag {
 	cursor: pointer;
+	text-decoration: none;
 }
 
 #projects {
