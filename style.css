@@ -126,6 +126,10 @@ em {
 	min-width: 200px;
 }
 
+.link-tag {
+	cursor: pointer;
+}
+
 #projects {
 	background-color: #9A8B45;
 }
@@ -149,6 +153,11 @@ em {
 
 .deployment-tag {
 	font-size: 24px;
+}
+
+.highlight-tag {
+	background-color: #ce3e39;
+	color: #EAEAEA;
 }
 
 #projects .project-tag-wrapper img {
