@@ -11,7 +11,7 @@ section, header, footer {
 	color: white;
 }
 
-section div {
+section .border {
 	display: inline-block;
 	padding: 0 15px 15px;
 	margin: 20px;
@@ -21,7 +21,7 @@ section div {
 	vertical-align: middle;
 	background-color: #EAEAEA;
 	color: #353535;
-
+	max-width: 500px;
 }
 
 h1, h2, h3 {
@@ -170,6 +170,17 @@ em {
 
 #contact {
 	background-color: #41366B;
+}
+.links {
+	margin-bottom: 18px;
+}
+
+.links * {
+	vertical-align:middle;
+}
+
+.links a {
+	margin-right: 5%;
 }
 
 footer {
