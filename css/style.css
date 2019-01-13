@@ -65,7 +65,7 @@ a {
 }
 
 header:before {
-	background: #000 url("assets/bg.png") repeat-x center fixed;
+	background: #000 url("../img/bg.png") repeat-x center fixed;
 	content: " ";
   position: absolute;
   top: 0;
