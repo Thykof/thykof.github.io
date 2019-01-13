@@ -25,11 +25,12 @@ header p {
 
 .title {
 	font-size: 3em;
-	padding: 20vh;
+	padding: 20vh 0;
 }
 
 .subtitle {
 	text-decoration: inherit;
+	font-size: 1.3em;
 }
 
 
@@ -37,7 +38,7 @@ header p {
 .bio {
 	font-size: 1.15em;
 	font-style: italic;
-	color: black;
+	color: #353535;
 }
 
 #bio {
