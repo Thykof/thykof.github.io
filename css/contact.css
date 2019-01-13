@@ -1,0 +1,18 @@
+
+#contact {
+	background-color: #ECC800;
+	background-image: linear-gradient(#ECC800 1%, white 50%); /* Standard syntax (must be last) */
+	color: black;
+	padding-bottom: 100px;
+}
+.links {
+	margin-bottom: 18px;
+}
+
+.links * {
+	vertical-align:middle;
+}
+
+.links a {
+	margin-right: 5%;
+}

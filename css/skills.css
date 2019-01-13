@@ -1,0 +1,21 @@
+#skills {
+	background-color: #EC0C00; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#EC0C00 1%, white 50%); /* Standard syntax (must be last) */
+}
+
+#skills .border {
+	width: 30vw;
+	margin-left: 3vw;
+	margin-right: 3vw;
+	padding-right: 3vw;
+	padding-left: 3vw;
+	min-width: 200px;
+}
+
+.not-decorated {
+	text-decoration: none;
+}
+
+.small {
+	font-size: 0.6em;
+}
