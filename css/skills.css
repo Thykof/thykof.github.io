@@ -1,8 +1,3 @@
-#skills {
-	background-color: #EC0C00; /* For browsers that do not support gradients */
-  background-image: linear-gradient(#EC0C00 1%, white 50%); /* Standard syntax (must be last) */
-}
-
 #skills .border {
 	width: 30vw;
 	margin-left: 3vw;

@@ -10,7 +10,7 @@ function Highlight(tagname) {
 
   if(typeof(Worker) !== "undefined") {
     if(typeof(worker) == "undefined") {
-      worker = new Worker("webWorker.js");
+      worker = new Worker("js/webWorker.js");
     }
     worker.postMessage('django-tag');
     worker.onmessage = resetHighlight;

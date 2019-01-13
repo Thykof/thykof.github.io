@@ -1,0 +1,29 @@
+/* CSS reset */
+body,section,header,footer,div,ul,ol,li,h1,h2,h3,h4,h5,h6,p,th,td {
+    margin:0;
+    padding:0;
+}
+html,body {
+    margin:0;
+    padding:0;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+img {
+    border:0;
+}
+ol,ul {
+    list-style:none;
+}
+th {
+    text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:normal;
+}
+q:before,q:after {
+    content:'';
+}

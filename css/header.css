@@ -8,51 +8,39 @@ header:before {
   height: 100%;
   opacity: .4;
   z-index: -1;
+	min-height: 350px;
 }
 
 header {
 	color: black;
-	padding: 50px 0;
 	font-size: 15px;
+	height: 100vh;
+	min-height: 350px;
+	padding: 0;
 }
 
 header p {
-	padding: 3% 3%;
+	margin: 3% 3%;
 }
 
-.section-header {
-	font-size: 1.75em;
-	padding: 45px 0 30px;
-}
-
-.section-header * {
-	vertical-align: middle;
-}
-
-.section-header h2 {
-	display: inline-block;
-}
-
-.title-icon {
-	width: 75px;
+.title {
+	font-size: 3em;
+	padding: 20vh;
 }
 
 .subtitle {
 	text-decoration: inherit;
 }
 
+
+
 .bio {
 	font-size: 1.15em;
 	font-style: italic;
 	color: black;
-	border-left: 0.5px black solid;
-	border-right: 0.5px black solid;
-	padding: 10px 2%;
-	display: inline-block;
 }
 
 #bio {
-	background-color: white;
-	padding: 90px 2%;
-	border-radius: 0;
+	padding: 70px 0;
+	background-color: #3187B0;
 }

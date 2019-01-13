@@ -8,8 +8,6 @@ body {
 section, header, footer {
 	text-align: center;
 	padding-bottom: 75px;
-	color: white;
-	border-radius: 50px;
 }
 
 section .border {
@@ -18,30 +16,32 @@ section .border {
 	margin: 20px;
 	text-align: left;
 	border-radius: 25px;
-	border: 2px solid black;
+	border: 2px solid #066D9F;
 	vertical-align: middle;
-	background-color: #EAEAEA;
+	background-color: #74AECA;
 	color: #353535;
 	max-width: 500px;
 }
 
 section h2 {
 	text-transform: uppercase;
+	font-weight: lighter;
+	font-size: 3.5em;
+	color: #353535;
+}
+
+.section-header {
+	padding: 45px 0 30px;
 }
 
 h1, h2, h3 {
 	font-weight: bold;
 }
 
-h1 {
-	font-size: 3em;
-	padding: 50px;
-}
-
 h3 {
 	padding: 15px 0 10px;
 	text-align: center;
-	color: #151515;
+	color: #F2F2F2;
 	font-size: 1.55em;
 }
 
@@ -72,13 +72,19 @@ em {
 	font-style: italic;
 }
 
+.logo-bg-white {
+	background-color: #FFF;
+	border-radius: 50%;
+}
+
 footer {
+	background-color: #01324A;
 	padding: 45px;
 }
 
 footer a {
 	font-size: 0.8em;
-	color: black;
+	color: #F2F2F2;
 }
 
 footer img {
