@@ -1,3 +1,11 @@
+#skills {
+	background-color: #74AECA;
+}
+
+#skills i {
+	font-size: 0.6em;
+}
+
 #skills .border {
 	width: 30vw;
 	margin-left: 3vw;
@@ -5,6 +13,9 @@
 	padding-right: 3vw;
 	padding-left: 3vw;
 	min-width: 200px;
+	background-color: #01324A;
+	color: #F2F2F2;
+	border: 0.5px solid #066D9F;
 }
 
 .not-decorated {

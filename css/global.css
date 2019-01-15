@@ -15,12 +15,13 @@ section .border {
 	padding: 0 15px 15px;
 	margin: 20px;
 	text-align: left;
-	border-radius: 25px;
-	border: 2px solid #066D9F;
 	vertical-align: middle;
 	background-color: #74AECA;
 	color: #353535;
 	max-width: 500px;
+	border-radius: 0;
+	border-width: 0.5px;
+	border-color: #066D9F;
 }
 
 section h2 {
@@ -70,11 +71,6 @@ strong {
 
 em {
 	font-style: italic;
-}
-
-.logo-bg-white {
-	background-color: #FFF;
-	border-radius: 50%;
 }
 
 footer {

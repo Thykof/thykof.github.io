@@ -1,10 +1,11 @@
 #projects {
-	background-color: #74AECA;
+	background-color: #FFFFFF;
 }
 
 #projects .border {
-	background-color: #01324A;
+	background-color: #3187B0;
 	color: #F2F2F2;
+	border: 0.5px solid #045075;
 }
 
 .project-tag-wrapper {
@@ -20,7 +21,7 @@
 
 .project-tag {
 	border: 1px solid #74AECA;
-	border-radius: 15%;
+	border-radius: 0.6em;
 	padding: 3px;
 }
 
@@ -36,8 +37,13 @@
 .rank {
 	color: #353535;
 	background-color: gold;
-	padding: 2px 8px;
+	padding: 0 6px;
 	font-size: 1.3em;
+	border-radius: 50%;
+}
+
+.github-tag img {
+	width: 22.5px;
 }
 
 #projects .project-tag-wrapper img {

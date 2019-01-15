@@ -32,16 +32,3 @@ header p {
 	text-decoration: inherit;
 	font-size: 1.3em;
 }
-
-
-
-.bio {
-	font-size: 1.15em;
-	font-style: italic;
-	color: #353535;
-}
-
-#bio {
-	padding: 70px 0;
-	background-color: #3187B0;
-}
