@@ -10,7 +10,7 @@ section, header, footer {
 	padding-bottom: 75px;
 }
 
-section .border {
+section .box {
 	display: inline-block;
 	padding: 0 15px 15px;
 	margin: 20px;
@@ -19,7 +19,6 @@ section .border {
 	background-color: #74AECA;
 	color: #353535;
 	max-width: 500px;
-	border-radius: 0;
 	border-width: 0.5px;
 	border-color: #066D9F;
 }

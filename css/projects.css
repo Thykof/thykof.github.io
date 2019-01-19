@@ -2,14 +2,23 @@
 	background-color: #FFFFFF;
 }
 
-#projects .border {
+#projects .box {
 	background-color: #3187B0;
 	color: #F2F2F2;
-	border: 0.5px solid #045075;
+	border: 1px solid #045075;
+
+	padding: 0 5px 5px; /* 0 -10 -10 */
+
+	max-width: 250px;
+}
+
+#projects #sd-projects .box:hover, #projects #small-projects .box:hover {
+	margin: 16px;
+	border: 5px solid #045075;
 }
 
 .project-tag-wrapper {
-	margin: 10px 0;
+	margin: 20px 0;
 	text-align: center;
 }
 
@@ -48,4 +57,60 @@
 
 #projects .project-tag-wrapper img {
 	vertical-align: middle;
+}
+
+#main-projects .box {
+	padding: 0 15px 15px;
+	display: block;
+	margin: 25px auto;
+	max-width: none;
+	width: 85%;
+	max-width: 800px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+	padding: 7vh 0;
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #74AECA;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #3187B0;
+  width: 80%;
+}
+
+.modal-header i {
+	font-size: 1.5em;
+}
+
+.modal-body .description {
+	text-align: justify;
+	margin: 20px 3vw;
+}
+
+.close {
+	cursor: pointer;
+	float: right;
+}
+
+.modal-footer {
+	margin-top: 25px;
+}
+
+.modal-footer i {
+	font-size: 24px;
+	margin-left: 25px;
 }
