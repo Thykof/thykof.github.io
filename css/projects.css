@@ -6,15 +6,17 @@
 	background-color: #3187B0;
 	color: #F2F2F2;
 	border: 1px solid #045075;
-
 	padding: 0 5px 5px; /* 0 -10 -10 */
-
 	max-width: 250px;
 }
 
 #projects #sd-projects .box:hover, #projects #small-projects .box:hover {
 	margin: 16px;
 	border: 5px solid #045075;
+}
+
+.description {
+	font-size: 0.8em;
 }
 
 .project-tag-wrapper {
@@ -55,18 +57,30 @@
 	width: 22.5px;
 }
 
+#projects .section-header {
+	background-color: #3187B0;
+}
+
 #projects .project-tag-wrapper img {
 	vertical-align: middle;
 }
 
-#main-projects .box {
-	padding: 0 15px 15px;
-	display: block;
-	margin: 25px auto;
-	max-width: none;
-	width: 85%;
-	max-width: 800px;
+#main-projects {
+	max-width: 1500px;
+	margin: auto;
 }
+
+#main-projects .main-project {
+	padding: 15px;
+	max-width: 1800px;
+	margin: auto;
+	background-color: #3187B0;
+}
+
+#main-projects .main-project i {
+	color: #F2F2F2;
+}
+
 
 /* The Modal (background) */
 .modal {
