@@ -36,8 +36,9 @@
 	padding: 3px;
 }
 
-.deployment-tag {
+.deployment-tag i {
 	font-size: 24px;
+	vertical-align: middle;
 }
 
 .highlight-tag {
