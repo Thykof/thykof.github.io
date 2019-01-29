@@ -41,6 +41,10 @@
 	vertical-align: middle;
 }
 
+.deployment-tag img {
+	vertical-align: middle;
+}
+
 .highlight-tag {
 	background-color: #74AECA;
 	color: #353535;
